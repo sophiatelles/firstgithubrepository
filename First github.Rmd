@@ -1,0 +1,45 @@
+---
+title: "first github"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Some comamnds to use to get a high level picture of the data include the following.
+* dim() (dimensions of the dataset)
+* nrows()(number of rows)
+* ncol() (number of columns)
+* str() (information about the variable types)
+
+
+# Executing the dim command
+
+```{r}
+dim(mtcars)
+```
+
+# ncol
+```{r}
+ncol(mtcars)
+```
+
+# nrow
+```{r}
+nrow(mtcars)
+```
+
+# str
+
+```{r echo=FALSE}
+str(mtcars)
+```
+
+
+# Names of Variables
+
+```{r}
+names(mtcars)
+```
+
